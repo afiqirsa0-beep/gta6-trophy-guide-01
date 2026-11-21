@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Log: GTA VI trophy guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Leonida Trophy Log <small>GTA VI, PlayStation 5, 55 trophies</small></h1>
+  <div id="bar"><div id="barfill"></div></div>
+  <p id="progress"></p>
+</header>
+<nav class="controls">
+  <div id="kinds" role="group" aria-label="Filter by kind"></div>
+  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+  <label><input id="spoil" type="checkbox"> Hide story trophies until earned</label>
+  <label><input id="hideDone" type="checkbox"> Hide earned</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import <input id="import" type="file" accept="application/json"></label>
+</nav>
+<main>
+  <section id="roadmap"><h2>Roadmap to the platinum</h2><ol id="stages"></ol></section>
+  <section><h2>Checklist <span id="count"></span></h2><ul id="rows"></ul></section>
+</main>
+<footer>Unofficial fan tool. Names, descriptions and grades are PlayStation's; guides are in our own words and cite their sources. No network use.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
